@@ -1,0 +1,229 @@
+.section-top__buttons {
+	margin-top: 49px;
+	display: flex;
+	
+	a:first-child {
+	 	$values: (fs: 12px, lh:15px, ls: 1px, w: 185px, pd: 16px 0px, br: 5px, bg: $white, clr: $violet, mr: 13px 0px);
+		@include btn($values...) {
+			border: 1px solid $white;
+			margin-right: 17px;
+			&:hover {
+			background-color: transparent;
+			color: $white;
+			}
+		};
+	}
+	a:last-child {
+		$values: (fs: 12px, lh:15px, ls: 1px, w: 185px, pd: 16px 0, br: 5px, bg: transparent, clr: $white, mr: 13px 0px);
+		@include btn($values...) {
+			border: 1px solid $white;
+			&:hover {
+				background-color: $white;
+				color: $violet;
+			}
+		};
+	}
+	
+}
+
+.section-top__pushbuttons {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	padding: 39px 0 39px 0;
+	.section-top__pushbuttons-container {
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+		a {
+			$values: (bg: transparent, fs: 16px, lh: 20px, ls: 0.54px, fw: 700, br: 100px, pd:24px 46px, clr: $white);
+			
+			@include btn3($values...) {
+				border: 2px solid $white;
+			}
+		}
+		a.active {
+			color: #FFD100; 
+			border: 2px solid #FFD100;
+		}
+	}
+	
+}
+
+.section-content__element2 {
+	.section-content__element2-button {
+		padding: 30px 0 0 0;
+			a {
+			$values: (fs: 12px, lh:15px, ls: 1px, w: 230px, pd: 16px 0px, br: 5px, bg: #5540BF, clr: $white, mr: 13px 0px);
+			@include btn($values...) {
+				border: 1px solid #5540BF;
+				&:hover {
+				background-color: transparent;
+				color: $white;
+				}
+			};
+		}
+	}
+}
+.section-content__element3 {
+	.section-content__element3-button {
+		padding: 30px 0 0 0;
+		a {
+			$values: (fs: 12px, lh:15px, ls: 1px, w: 230px, pd: 16px 0px, br: 5px, bg: #5540BF, clr: $white, mr: 13px 0px);
+			@include btn($values...) {
+				border: 1px solid #5540BF;
+				&:hover {
+				background-color: transparent;
+				color: $white;
+				}
+			};
+		}
+	}
+}
+.section-content__element4-buttons {
+	display: flex;
+	padding: 11px 0 0 226px;
+	a:first-child {
+		$values: (bg: transparent, fs: 8px, lh: 20px, ls: 0.54px, fw: 400, br: 20px, pd:0px 10px, clr: $red, mr: 0px 5px);
+			
+			@include btn3($values...) {
+				min-width: 70px;
+				border: 1px solid $red;
+				height: 20px;
+				text-transform: none;
+				&:hover {
+					background-color: $red;
+					color: $white;
+				}
+			}
+	}
+	a:last-child {
+		$values: (bg: $blue, fs: 8px, lh: 20px, ls: 0.54px, fw: 400, br: 20px, pd:0px 10px, clr: $white, mr: 0px 5px);
+			
+			@include btn3($values...) {
+				min-width: 70px;
+				border: 1px solid $blue;
+				height: 20px;
+				text-transform: none;
+				&:hover {
+					background-color: transparent;
+					color: $blue;
+				}
+			}
+	}
+}
+
+.section-content__element6-button {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 57px 0 0 0;
+	a:first-child {
+		$values: (fs: 12px, lh:15px, ls: 1px, w: 183px, pd: 16px 0px, br: 5px, bg: #5540BF, clr: $white, mr: 13px 10px);
+		@include btn($values...) {
+			border: 1px solid #5540BF;
+			&:hover {
+			background-color: transparent;
+			color: $white;
+			}
+		};
+	}
+	a:last-child {
+		$values: (fs: 12px, lh:15px, ls: 1px, w: 183px, pd: 16px 0px, br: 5px, bg: transparent, clr: $violet, mr: 13px 10px);
+		@include btn($values...) {
+			border: 1px solid $violet;
+			&:hover {
+			background-color: transparent;
+			color: $white;
+			}
+		};
+	}
+}
+
+.section-lower__element1 {
+	.section-lower__element1-button {
+		padding: 30px 0 0 0;
+		a {
+			$values: (fs: 12px, lh:15px, ls: 1px, w: 230px, pd: 16px 0px, br: 5px, bg: $white, clr: $violet, mr: 13px 0px);
+			@include btn($values...) {
+				border: 1px solid $white;
+				width: 182px;
+				&:hover {
+				background-color: transparent;
+				color: $white;
+				}
+			};
+		}
+	}
+}
+@media (max-width: 1366px) {
+	.section-top__pushbuttons {
+		padding: 0 0 10px 0;
+	}
+}
+
+@media (max-width: 1024px) {
+	.section-top__pushbuttons {
+		padding: 0 0 8px 0;
+		.section-top__pushbuttons-container {
+			a {
+				font-size: 13px;
+				min-width: 130px;
+				padding: 24px 19px;
+				line-height: 10px;
+				height: 60px;
+				margin: 8px 15px;
+			}
+		}
+	}
+	.section-content__element4-buttons {
+		padding: 5px 0 0 100px;
+	}
+}
+@media (max-width: 768px) {
+	.section-top__buttons {
+		justify-content: center;
+		a {
+			font-size: 10px;
+		}
+	}
+	.section-top__pushbuttons {
+		padding: 0px 0 24px 0;
+		.section-top__pushbuttons-container {
+			a {
+				font-size: 12px;
+				line-height: 16px;
+				min-width: 142px;
+				padding: 15px 23px;
+				height: 47px;
+			}
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	.section-top__buttons {
+		justify-content: center;
+		a:first-child {
+			width: 150px;
+		}
+		a:last-child {
+			width: 150px;
+		}
+	}
+	.section-content__element4-buttons {
+		display: flex;
+		padding: 6px 0 0 65px;
+		a {
+			min-width: 90px;
+			font-size: 9px;
+			padding: 0 14px;
+		}
+	}
+	.section-content__element6-button {
+		justify-content: center;
+		padding: 17 0 0 0;
+	}
+
+}

@@ -1,0 +1,49 @@
+.menu {
+	nav {
+		padding: 0 0 0 247px;
+		ul {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			a {
+				padding-left: 30px;
+				color: $white;
+				text-decoration: none;
+				font-size: 15px;
+				line-height: 17px;
+				font-weight: 500;
+				letter-spacing: 1.1px;
+				&:hover {
+					color: $yellow;
+				}
+				
+			}
+		}
+	}
+	
+}
+@media (max-width: 1366px) {
+	.menu {
+		nav {
+			padding: 0 0 0 150px;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.menu {
+		nav {
+			padding: 0 0 0 0;
+			ul {
+				justify-content: center;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.menu {
+		ul {
+			justify-content: space-around;
+		}
+	}
+}

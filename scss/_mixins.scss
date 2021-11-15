@@ -1,0 +1,112 @@
+@mixin min-max($min-width, $max-width, $padding) {
+  min-width: $min-width;
+  max-width: $max-width;
+  padding: 0 $padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@mixin btn2($bg: $black, $fs: 9px, $lh: 13px, $ls: 0.54px, $fw: 700, $br: 40px, $pd:13px 0, $clr: $white) {
+  width:auto;
+  color: $clr;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  font-weight: $fw;
+  background-color: $bg;
+  border-radius: $br;
+  padding: $pd;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 25px 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  @content; //в этом месте мы сможем подключать дополнительные стили
+
+  //&:hover {
+    //background-color: lighten($bg, 15%);
+    //
+  //}
+}
+
+@mixin btn3($bg: $black, $fs: 9px, $lh: 13px, $ls: 0.54px, $fw: 700, $br: 40px, $pd:24px 0, $clr: $white, $mr: 15px 15px) {
+    min-width: 200px;
+		height: 70px;
+		padding: $pd;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		background-color: $bg;
+		color: $clr;
+    text-transform: uppercase;
+    border-radius: $br;
+    margin: $mr;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+    font-weight: $fw;
+    box-sizing: border-box;
+  @content; //в этом месте мы сможем подключать дополнительные стили
+
+  //&:hover {
+    //background-color: lighten($bg, 15%);
+    //
+  //}
+}
+
+@mixin btn($bg: $black, $fs: 9px, $lh: 13px, $ls: 0.54px, $fw: 700, $br: 40px, $w: 114px, $pd:13px 0, $clr: $white, $mr: 25px 0px) {
+  width: $w;
+  //height: $h;
+  color: $clr;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  font-weight: $fw;
+  background-color: $bg;
+  border-radius: $br;
+  padding: $pd;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: $mr;
+  text-decoration: none;
+  @content; //в этом месте мы сможем подключать дополнительные стили
+}
+
+
+// Отображение контента только для программ чтения с экрана. А-ля Бутстрап 4.
+//
+// Смотри: http://a11yproject.com/posts/how-to-hide-content/
+
+@mixin sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// Используйте в сочетании с .sr-only только для отображения контента, когда он сфокусирован.
+//
+// Полезно для ссылок "перейти к основному контенту"; см. http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}

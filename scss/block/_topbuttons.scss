@@ -1,0 +1,11 @@
+.top-buttons {
+	//background: url(../img/Rectangle149.png) center 0 0/cover no-repeat, linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
+	background: url(../img/Rectangle149.png) center center/100% no-repeat, linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
+	//background: linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
+}	
+
+@media (max-width: 768px) {
+	.top-buttons {
+		background: url(../img/Rectangle149-2.png) center center/cover no-repeat, linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
+	}
+}

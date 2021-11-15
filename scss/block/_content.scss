@@ -1,0 +1,748 @@
+.section-content {
+	background: url(../img/Ellipse83.png) bottom -45px right 55px no-repeat, url(../img/Polygon1.png) bottom left no-repeat, url(../img/Polygon4.png) top 744px right 130px no-repeat, url(../img/Rectangle160.png) top 545px right no-repeat, url(../img/Polygon3.png) top 486px left 28px no-repeat, url(../img/Rectangle164.png) top -130px left no-repeat; 
+	.section-content__container {
+		padding: 170px 0 0 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		.table {
+			flex-basis: 50%;
+		}
+		.section-content__element1 {
+			position: relative;
+			height: 600px;
+			.section-content__element1-picture1 {
+				position: absolute;
+				background: url(../img/Group251.png) 0 0/cover no-repeat;
+				width: 576px;
+				height: 440px;
+				top: -3%;
+				left: -20%;
+				.picture1{
+					display: flex;
+					margin: 0 auto;
+					width: 110px;
+					padding: 379px 0 0 0;
+					.picture1-circle {
+						justify-content: space-evenly;
+						border: 0 solid $white;
+						border-radius: 50%;
+						width: 30px;
+						height: 30px;
+						&:nth-child(1) {
+							background: $white;
+							svg {
+								padding: 8px 8px;	
+							}
+						}
+						&:nth-child(2) {
+							background: $red;
+							margin-left: 10px;
+							svg {
+								padding: 12px 7px 12px 7px;	
+							}
+						}
+						&:nth-child(3) {
+							background: $white;
+							margin-left: 10px;
+							svg {
+								padding: 7.5px 8px 7.5px 8px;
+							}
+						}
+						
+					}
+				}
+			}
+			.section-content__element1-picture2 {
+				background: url(../img/gg1591790361696.png) 50% 50% no-repeat #FFFFFF;
+				position: absolute;
+				width: 209px;
+				height: 396.26px;
+				left: 51%;
+				top: 8%;
+				box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+				border-radius: 20px;
+			}
+		}
+		.section-content__element2 {
+			padding-left: 0px;
+			height: 600px;
+			h2 {
+				padding: 15px 12px 0 0;
+				letter-spacing: 1.8px;
+			}
+			p {
+				padding: 34px 0 0 0;
+				letter-spacing: 1.4px;
+				font-size: 18px;
+				line-height: 28px;
+			}
+		}
+		.section-content__element3 {
+			height: 600px;
+			h2 {
+				padding: 85px 0 0 0px;
+				letter-spacing: 2.1px;
+			}
+			p {
+				padding: 34px 15px 0 0px;
+				letter-spacing: 1.4px;
+				font-size: 18px;
+				line-height: 28px;
+			}
+		}
+		.section-content__element4 {
+			height: 600px;
+			position: relative;
+			.section-content__element4-picture0{
+				position: absolute;
+				width: 86px;
+				height: 70px;
+				top: 70%;
+				left: -8%;
+				background-image: radial-gradient($yellow 26%, transparent 36%);
+				background-size: 15px 15px;
+				background-position: 0 -30px;
+			}
+			.section-content__element4-picture1{
+				position: absolute;
+				width: 576px;
+				height: 440px;
+				background: url(../img/Group251-1.png) 0 0/cover;
+				top: 5%;
+				left: -2%;
+				.picture1{
+					display: flex;
+					margin: 0 auto;
+					width: 110px;
+					padding: 382px 0 0 0;
+					.picture1-circle {
+						justify-content: space-evenly;
+						border: 0 solid $white;
+						border-radius: 50%;
+						width: 30px;
+						height: 30px;
+						&:nth-child(1) {
+							background: $white;
+							svg {
+								padding: 8px 8px;	
+							}
+						}
+						&:nth-child(2) {
+							background: $red;
+							margin-left: 10px;
+							svg {
+								padding: 12px 7px 12px 7px;	
+							}
+						}
+						&:nth-child(3) {
+							background: $white;
+							margin-left: 10px;
+							svg {
+								padding: 7.5px 8px 7.5px 8px;
+							}
+						}	
+					}
+				}
+			}
+			.section-content__element4-picture2 {
+				position: absolute;
+				width: 400px;
+				height: 144px;
+				left: 41%;
+				top: 42%;
+				background: #FFFFFF;
+				box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+				border-radius: 10px;
+				p {
+					padding: 14px 68px 0 23px;
+					font-size: 12px;
+					line-height: 16px;
+					letter-spacing: 1px;
+					span {
+						font-style: 700;
+					}
+				}
+				.section-content__element4-group {
+					display: flex;
+					padding: 14px 0 0 22px;
+					align-items: center;
+					.section-content__element4-circle {
+						width: 42px;
+						height: 42px;
+						border: 0 solid;
+						border-radius: 50%;
+						background: url(../img/Ellipse29.jpg) no-repeat;
+					}
+					p {
+						padding: 0 0 0 10px;
+						font-size: 10px;
+						line-height: 22px;
+					}
+				}
+				
+			}
+		}
+		.section-content__element5 {
+			height: 841px;
+			position: relative;
+			.section-content__element5-picture0 {
+				position: absolute;
+				width: 94px;
+				height: 70px;
+				top: 191px;
+				left: -85px;
+				background-image: radial-gradient($violet 17%, transparent 33%);
+				background-size: 15px 15px;
+				background-position: 0 -30px;
+			}
+			.section-content__element5-picture1 {
+				position: absolute;
+				top: 225px;
+				left: -52px;
+				width: 410px;
+				height: 410px;
+				background: url(../img/Rectangle162.png);
+			}
+			.section-content__element5-picture2 {
+				position: absolute;
+				width: 245px;
+				height: 464.52px;
+				box-shadow: 0px 0px 20px rgba(85, 64, 191, 0.2);
+				border-radius: 20px;
+				background: url(../img/Rectangle151-1.png) 45% 54% no-repeat, url(../img/Rectangle150-1.png) 45% 54% no-repeat, $white;
+				top: 85px;
+				left: 246px;
+				.picture2 {
+					display: flex;
+					margin: 0 auto;
+					width: 132px;
+					padding: 403px 0 0 0;
+					.picture1-circle {
+						justify-content: space-evenly;
+						border: 0 solid $white;
+						border-radius: 50%;
+						width: 36px;
+						height: 36px;
+						&:nth-child(1) {
+							background: $white;
+							svg {
+								padding: 11px 11px;	
+							}
+						}
+						&:nth-child(2) {
+							background: $red;
+							margin-left: 12px;
+							svg {
+								padding: 15px 10px 15px 10px;	
+							}
+						}
+						&:nth-child(3) {
+							background: $white;
+							margin-left: 12px;
+							svg {
+								padding: 10.5px 11px 10.5px 11px;
+							}
+						}	
+					}
+				}
+			}
+		}
+		.section-content__element6 {
+			height: 841px;
+			h2 {
+				padding: 145px 0 0 12px;
+				letter-spacing: 1.8px;
+			}
+			p {
+				padding: 36px 0 0 0;
+				letter-spacing: 1.3px;
+				font-size: 18px;
+				line-height: 28px;
+			}
+		}
+	}
+}
+@media (max-width: 1366px) {
+	.section-content {
+		.section-content__container {
+			.section-content__element4 {
+				.section-content__element4-picture2 {
+					left: 24%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.section-content {
+		background: url(../img/Ellipse83.png) bottom -72px right 55px/20% no-repeat, url(../img/Polygon1.png) bottom left/50% no-repeat, url(../img/Polygon4.png) top 456px right 60px/15% no-repeat, url(../img/Rectangle160.png) top 340px right/46% no-repeat, url(../img/Polygon3.png) top 300px left 28px/15% no-repeat, url(../img/Rectangle164.png) top -130px left/46% no-repeat; 
+		.section-content__container {
+			padding: 65px 15px 0 15px;
+			.section-content__element1 {
+				height: 450px;
+				.section-content__element1-picture1 {
+					width: 394px;
+					height: 299px;
+					top: 0%;
+					left: 0%;
+					background: url(../img/Group251.png) 47% 47%/content no-repeat;
+					.picture1 {
+						padding: 254px 0 0 0;
+					}
+				}
+				.section-content__element1-picture2 {
+					width: 174px;
+					height: 330px;
+					background-size: 90%;
+				}
+			}
+			.section-content__element2 {
+				padding-left: 0;
+				height: 450px;
+				h2 {
+					padding: 15px 0 0 0;
+					letter-spacing: 1px;
+					font-size: 34px;
+					line-height: 38px;
+				}
+				p {
+					letter-spacing: 1px;
+					font-size: 18px;
+					line-height: 26px;
+				}
+			}
+			.section-content__element3 {
+				height: 450px;
+				h2 {
+					padding: 15px 0 0 0;
+					letter-spacing: 1px;
+					font-size: 34px;
+					line-height: 38px;
+				}
+				p {
+					letter-spacing: 1px;
+					font-size: 18px;
+					line-height: 26px;
+				}
+			}
+			.section-content__element4 {
+				height: 450px;
+				.section-content__element4-picture0 {
+					top: 63%;
+					left: -7%;
+				}
+				.section-content__element4-picture1 {
+					width: 394px;
+					height: 299px;
+					top: 9%;
+					left: 0%;
+					.picture1 {
+						padding: 255px 0 0 0;
+					}
+				}
+				.section-content__element4-picture2 {
+					width: 300px;
+					height: 130px;
+					left: 24%;
+					top: 36%;
+					p {
+						padding: 10px 36px 0 14px;
+						font-size: 12px;
+						line-height: 16px;
+						letter-spacing: 1px;
+						span {
+							font-style: 700;
+						}
+					}
+				}
+			}
+			.section-content__element5 {
+				height: 600px;
+				.section-content__element5-picture0 {
+					top: 50px;
+					left: -24px;
+				}
+				.section-content__element5-picture1 {
+					top: 81px;
+					left: 6px;
+					width: 250px;
+					height: 250px;
+				}
+				.section-content__element5-picture2 {
+					top: 7px;
+					left: 47%;
+					width: 197px;
+					height: 374px;
+					background: url(../img/Rectangle151-1.png) 49% 54%/90% 95% no-repeat, url(../img/Rectangle150-1.png) 49% 54%/90% 95% no-repeat, $white;
+					.picture2 {
+						padding: 324px 0 0 0;
+					}
+				}
+			}
+			.section-content__element6 {
+				height: 600px;
+				h2 {
+					padding: 15px 0 0 0;
+					letter-spacing: 1px;
+					font-size: 34px;
+					line-height: 38px;
+				}
+				p {
+					letter-spacing: 1px;
+					font-size: 18px;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.section-content {
+		background: url(../img/Ellipse83.png) bottom -72px right 55px/20% no-repeat, url(../img/Polygon1.png) bottom left/50% no-repeat, url(../img/Polygon4.png) top 880px right 60px/15% no-repeat, url(../img/Rectangle160.png) top 700px right/46% no-repeat, url(../img/Polygon3.png) top 300px left 28px/15% no-repeat, url(../img/Rectangle164.png) top -130px left/57% no-repeat; 
+		.section-content__container {
+			.table {
+				flex-basis: 100%;
+				margin: auto 5px;
+				
+			}
+			.section-content__element1 {
+				order: 1;
+				text-align: center;
+				height: 385px;
+				display: flex;
+				justify-content: center;
+				.section-content__element1-picture1 {
+					top: 0px;
+					left: 12%;
+				}
+				.section-content__element1-picture2 {
+					position: relative;
+					top: 47px;
+					left: 15%;
+				}
+			}
+			.section-content__element2 {
+				order: 2;
+			}
+			.section-content__element3 {
+				order: 4;
+			}
+			.section-content__element4 {
+				order: 3;
+				height: 370px;
+				display: flex;
+				justify-content: center;
+				.section-content__element4-picture0 {
+					top: 282px;
+					left: 7%;
+				}
+				.section-content__element4-picture1 {
+					top: 20px;
+					left: 10%;
+					.picture1 {
+						padding: 255px 0 0 0;
+					}
+				}
+				.section-content__element4-picture2 {
+					position: relative;
+					top: 135px;
+					left: 27%;
+				}
+			}
+			.section-content__element5 {
+				order: 5;
+				height: 455px;
+				display: flex;
+				justify-content: center;
+				.section-content__element5-picture0 {
+					top: 50px;
+					left: 20px;
+				}
+				.section-content__element5-picture1 {
+					top: 81px;
+					left: 53px;
+				}
+				.section-content__element5-picture2 {
+					position: relative;
+					top: 7px;
+					left: 201px;
+				}
+			}
+			.section-content__element6 {
+				order: 6;
+				height: 390px;
+			}
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	
+	.section-content {
+		background: url(../img/Ellipse83.png) bottom -29px right 55px/20% no-repeat, url(../img/Polygon1.png) bottom left/50% no-repeat, url(../img/Polygon4.png) top 880px right 60px/15% no-repeat, url(../img/Rectangle160.png) top 700px right/46% no-repeat, url(../img/Polygon3.png) top 219px left 28px/23% no-repeat, url(../img/Rectangle164.png) top -130px left/60% no-repeat; 
+			
+		.section-content__container {
+			.section-content__element1 {
+				height: 385px;
+				.section-content__element1-picture1 {
+					top: 0px;
+					left: 0px;
+					width: 315px;
+					height: 235px;
+					.picture1 {
+						padding: 204px 0 0 0;
+						width: 92px;
+						.picture1-circle {
+							justify-content: space-evenly;
+							border: 0 solid $white;
+							border-radius: 50%;
+							width: 24px;
+							height: 24px;
+							&:nth-child(1) {
+								svg {
+									padding: 5px 5px;	
+								}
+							}
+							&:nth-child(2) {
+								margin-left: 10px;
+								svg {
+									padding: 9px 4px 9px 4px;	
+								}
+							}
+							&:nth-child(3) {
+								margin-left: 10px;
+								svg {
+									padding: 4.5px 5px 4.5px 5px;
+								}
+							}	
+						}
+					}
+				}
+				.section-content__element1-picture2 {
+					top: 47px;
+					left: 35px;
+					width: 140px;
+					height: 266px;
+				}
+			}
+			.section-content__element2 {
+				height: 330px;
+				h2 {
+					padding: 0;
+					letter-spacing: 1px;
+					font-size: 24px;;
+					line-height: 30px;
+				}
+				p {
+					letter-spacing: 0px;
+					font-size: 17px;
+					line-height: 24px;
+				}
+			}
+			.section-content__element3 {
+				h2 {
+					font-size: 24px;
+					line-height: 30px;
+				}
+				p {
+					letter-spacing: 0px;
+					font-size: 17px;
+					line-height: 24px;
+				}
+			}
+			.section-content__element4 {
+				.section-content__element4-picture0 {
+					top: 200px;
+					left: -3%;
+				}
+				.section-content__element4-picture1 {
+					top: 0px;
+					left: 0px;
+					width: 315px;
+					height: 235px;
+					.picture1 {
+						padding: 204px 0 0 0;
+						width: 92px;
+						.picture1-circle {
+							width: 24px;
+							height: 24px;
+							&:nth-child(1) {
+								svg {
+									padding: 5px 5px;	
+								}
+							}
+							&:nth-child(2) {
+								margin-left: 10px;
+								svg {
+									padding: 9px 4px 9px 4px;	
+								}
+							}
+							&:nth-child(3) {
+								margin-left: 10px;
+								svg {
+									padding: 4.5px 5px 4.5px 5px;
+								}
+							}	
+						}
+					}
+				}
+				.section-content__element4-picture2 {
+					width: 250px;
+					height: 130px;
+					left: -11%;
+					top: 20%;
+					p {
+						padding: 10px 10px 0 10px;
+					}
+					.section-content__element4-group {
+						display: flex;
+						padding: 7px 0 0 22px;
+						align-items: center;
+						.section-content__element4-circle {
+							width: 42px;
+							height: 42px;
+							border: 0 solid;
+							border-radius: 50%;
+							background: url(../img/Ellipse29.jpg) no-repeat;
+						}
+						p {
+							padding: 0 0 0 10px;
+							font-size: 12px;
+							line-height: 22px;
+						}
+					}
+				}
+			}
+			.section-content__element5 {
+				height: 455px;
+				.section-content__element5-picture0 {
+					top: 50px;
+					left: -15px;
+				}
+				.section-content__element5-picture1 {
+					top: 78px;
+					left: 13px;
+					width: 250px;
+					height: 250px;
+				}
+				.section-content__element5-picture2 {
+					top: 7px;
+					left: 40px;
+					width: 150px;
+					height: 285px;
+					.picture2 {
+						padding: 251px 0 0 0;
+						width: 92px;
+						.picture1-circle {
+							width: 24px;
+							height: 24px;
+							&:nth-child(1) {
+								svg {
+									padding: 5px 5px;	
+								}
+							}
+							&:nth-child(2) {
+								margin-left: 10px;
+								svg {
+									padding: 9px 4px 9px 4px;	
+								}
+							}
+							&:nth-child(3) {
+								margin-left: 10px;
+								svg {
+									padding: 4.5px 5px 4.5px 5px;
+								}
+							}	
+						}
+					}
+				}
+			}
+			.section-content__element6 {
+				height: 455px;
+				h2 {
+					font-size: 24px;
+					line-height: 30px;
+				}
+				p {
+					letter-spacing: 0px;
+					font-size: 17px;
+					line-height: 24px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.section-content {
+		.section-content__container {
+			.section-content__element1 {
+				.section-content__element1-picture1 {
+					top: 0px;
+					left: -28px;
+				}
+				.section-content__element1-picture2 {
+					left: 89px;
+				}
+			}
+			.section-content__element2 {
+				h2 {
+					font-size: 22px;
+					line-height: 28px;
+				}
+				p {
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+			.section-content__element3 {
+				h2 {
+					font-size: 22px;
+					line-height: 28px;
+				}
+				p {
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+			.section-content__element4 {
+				.section-content__element4-picture0 {
+					left: -7%;
+				}
+				.section-content__element4-picture1 {
+					left: -5%;
+				}
+				.section-content__element4-picture2 {
+					width: 245px;
+					height: 122px;
+					left: 15%;
+					top: 20%;
+				}
+			}
+			.section-content__element5 {
+				.section-content__element5-picture0 {
+					left: -23px;
+				}
+				.section-content__element5-picture1 {
+					left: -8px;
+				}
+				.section-content__element5-picture2 {
+					left: 85px;
+				}
+			}
+			.section-content__element6 {
+				h2 {
+					font-size: 22px;
+					line-height: 28px;
+				}
+				p {
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
