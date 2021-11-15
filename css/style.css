@@ -771,7 +771,7 @@ a:hover {
 
 .section-content__element2 .section-content__element2-button a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #5540BF;
 }
 
 .section-content__element3 .section-content__element3-button {
@@ -798,7 +798,7 @@ a:hover {
 
 .section-content__element3 .section-content__element3-button a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #5540BF;
 }
 
 .section-content__element4-buttons {
@@ -907,7 +907,7 @@ a:hover {
 
 .section-content__element6-button a:first-child:hover {
   background-color: transparent;
-  color: #fff;
+  color: #5540BF;
 }
 
 .section-content__element6-button a:last-child {
@@ -929,7 +929,7 @@ a:hover {
 }
 
 .section-content__element6-button a:last-child:hover {
-  background-color: transparent;
+  background-color: #5540BF;
   color: #fff;
 }
 
