@@ -694,7 +694,7 @@ a:hover {
 }
 
 .section-top__pushbuttons {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   text-align: center;
@@ -962,6 +962,9 @@ a:hover {
   .section-top__pushbuttons {
     padding: 0 0 10px 0;
   }
+  .section-content__element4-buttons {
+    padding: 11px 0 0 207px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -977,7 +980,7 @@ a:hover {
     margin: 8px 15px;
   }
   .section-content__element4-buttons {
-    padding: 5px 0 0 100px;
+    padding: 2px 0 0 86px;
   }
 }
 
@@ -1374,8 +1377,17 @@ a:hover {
 }
 
 @media (max-width: 1366px) {
+  .section-content .section-content__container .section-content__element4 .section-content__element4-picture1 {
+    width: 523px;
+    height: 412px;
+  }
+  .section-content .section-content__container .section-content__element4 .section-content__element4-picture1 .picture1 {
+    padding: 355px 0 0 0;
+  }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture2 {
     left: 24%;
+    top: 33%;
+    width: 383px;
   }
 }
 
@@ -1390,18 +1402,18 @@ a:hover {
     height: 450px;
   }
   .section-content .section-content__container .section-content__element1 .section-content__element1-picture1 {
-    width: 394px;
-    height: 299px;
+    width: 334px;
+    height: 261px;
     top: 0%;
     left: 0%;
     background: url(../img/Group251.png) 47% 47%/content no-repeat;
   }
   .section-content .section-content__container .section-content__element1 .section-content__element1-picture1 .picture1 {
-    padding: 254px 0 0 0;
+    padding: 219px 0 0 0;
   }
   .section-content .section-content__container .section-content__element1 .section-content__element1-picture2 {
-    width: 174px;
-    height: 330px;
+    width: 159px;
+    height: 303px;
     background-size: 90%;
   }
   .section-content .section-content__container .section-content__element2 {
@@ -1441,19 +1453,19 @@ a:hover {
     left: -7%;
   }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture1 {
-    width: 394px;
-    height: 299px;
+    width: 356px;
+    height: 272px;
     top: 9%;
     left: 0%;
   }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture1 .picture1 {
-    padding: 255px 0 0 0;
+    padding: 230px 0 0 0;
   }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture2 {
-    width: 300px;
+    width: 257px;
     height: 130px;
     left: 24%;
-    top: 36%;
+    top: 30%;
   }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture2 p {
     padding: 10px 36px 0 14px;
@@ -1463,6 +1475,9 @@ a:hover {
   }
   .section-content .section-content__container .section-content__element4 .section-content__element4-picture2 p span {
     font-style: 700;
+  }
+  .section-content .section-content__container .section-content__element4 .section-content__element4-picture2 .section-content__element4-group {
+    padding: 4px 0 0 15px;
   }
   .section-content .section-content__container .section-content__element5 {
     height: 600px;
@@ -1479,13 +1494,13 @@ a:hover {
   }
   .section-content .section-content__container .section-content__element5 .section-content__element5-picture2 {
     top: 7px;
-    left: 47%;
-    width: 197px;
-    height: 374px;
+    left: 44%;
+    width: 183px;
+    height: 343px;
     background: url(../img/Rectangle151-1.png) 49% 54%/90% 95% no-repeat, url(../img/Rectangle150-1.png) 49% 54%/90% 95% no-repeat, #fff;
   }
   .section-content .section-content__container .section-content__element5 .section-content__element5-picture2 .picture2 {
-    padding: 324px 0 0 0;
+    padding: 294px 0 0 0;
   }
   .section-content .section-content__container .section-content__element6 {
     height: 600px;
@@ -1912,6 +1927,15 @@ a:hover {
   height: auto;
 }
 
+@media (max-width: 1366px) {
+  .section-lower .section-lower__container .section-lower__element2 .section-lower__element2-picture1 {
+    top: -16px;
+  }
+  .section-lower .section-lower__container .section-lower__element2 .section-lower__element2-picture1 img {
+    width: 104%;
+  }
+}
+
 @media (max-width: 1024px) {
   .section-lower {
     padding-bottom: 30px;
@@ -2062,6 +2086,12 @@ footer .footer-content .footer-content__right p a {
   font-size: 16px;
   line-height: 22px;
   color: #5540BF;
+}
+
+@media (max-width: 1366px) {
+  footer .footer-content .footer-content__right p {
+    padding: 23px 0 0 30px;
+  }
 }
 
 @media (max-width: 768px) {

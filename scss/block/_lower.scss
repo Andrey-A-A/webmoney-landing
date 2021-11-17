@@ -49,6 +49,21 @@
 	}
 }
 
+@media (max-width: 1366px) {
+	.section-lower {
+		.section-lower__container {
+			.section-lower__element2 {
+				.section-lower__element2-picture1 {
+					top: -16px;
+					img {
+						width: 104%;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 1024px) {
 	.section-lower {
 		padding-bottom: 30px;

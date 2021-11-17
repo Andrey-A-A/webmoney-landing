@@ -48,6 +48,18 @@ footer {
 	}
 }
 
+@media (max-width: 1366px) {
+	footer {
+		.footer-content {
+			.footer-content__right {
+				p {
+					padding: 23px 0 0 30px;
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 768px) {
 	footer {
 		.footer-content {
