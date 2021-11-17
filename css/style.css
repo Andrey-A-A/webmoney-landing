@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
  * Основные стили
  **/
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .section-top .section-top__header .section-top__logo a {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -2024,7 +2024,7 @@ footer .footer-content .footer-content__left .footer-content__logo {
 }
 
 footer .footer-content .footer-content__left .footer-content__logo a {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -2053,7 +2053,16 @@ footer .footer-content .footer-content__right .footer-content__icons .icon {
 
 footer .footer-content .footer-content__right p {
   padding: 23px 0 0 132px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5540BF;
+}
+
+footer .footer-content .footer-content__right p a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
   line-height: 22px;
   color: #5540BF;
 }
